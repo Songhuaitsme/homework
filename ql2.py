@@ -20,7 +20,7 @@ def run_experiment(gamma, episodes=2001, update_freq=100):
     """
     运行Q-Learning训练并按指定频率保存热力图。
 
-    参数:
+    更改说明:
     gamma (float): 衰减因子
     episodes (int): 总训练轮次
     update_freq (int): 每隔多少轮保存一次图像
